@@ -12,13 +12,16 @@ const arr = [
 ]
 const Icons = memo(function () {
     return (
-        <div className=" flex gap-2 justify-center items-center">
+        <div className=" cursor-pointer flex gap-2 justify-center items-center">
             <div className=" p-1 rounded-full bg-gradient-to-tr from-yellow-600 to-red-500">
                 <RiMovie2Fill className=" size-5 fill-white" />
             </div>
-            <span className=" bg-clip-text text-3xl font-bold bg-gradient-to-tr from-yellow-600 to-red-500 text-transparent">
-                Movie
-            </span>
+            <Link to={'/'}>
+
+                <span className=" bg-clip-text text-3xl font-bold bg-gradient-to-tr from-yellow-600 to-red-500 text-transparent">
+                    Movie
+                </span>
+            </Link>
         </div>
     )
 })
@@ -92,7 +95,7 @@ function NavBar() {
                                 )}
                             </motion.li>
                         ))}
-                       
+
                     </ul>
                 )}
                 <RiMenu3Fill
