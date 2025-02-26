@@ -92,11 +92,7 @@ function NavBar() {
                                 )}
                             </motion.li>
                         ))}
-                        <li>
-                            <Link to={'/search'}>
-                                <CiSearch className=" size-6" />
-                            </Link>
-                        </li>
+                       
                     </ul>
                 )}
                 <RiMenu3Fill
