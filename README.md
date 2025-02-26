@@ -1,8 +1,22 @@
-# React + Vite
+# 🎬 Movix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movix is a **modern movie browsing web application** built with **React.js**, **Tailwind CSS**, and **Framer Motion**. It allows users to explore and search for movies with an engaging UI and smooth animations.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔍 **Movie Search:** Find movies easily with a responsive search bar.
+- 📄 **Detailed Movie Pages:** Get information such as ratings, descriptions, and trailers.
+- 🎭 **Smooth Animations:** Enhances the UI with **Framer Motion**.
+- 🔄 **Remote State Management:** Uses **React Query** for efficient API data fetching and caching.
+- 📱 **Responsive Design:** Fully optimized for mobile and desktop.
+- ⚡ **Fast Performance:** Uses lazy loading and caching for efficiency.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS, Framer Motion
+- **State Management:** React Query
+- **API:** The Movie Database (TMDB) API
+
+## 📦 Installation & Setup
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/sameerkumar2704/movix.git
+   cd movix
